@@ -1,0 +1,97 @@
+# 🕵️‍♂️ Credit Card Fraud Detection Using DBSCAN (Unsupervised Learning)
+
+This project focuses on detecting fraudulent credit card transactions using unsupervised machine learning. We utilize **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** to identify outliers and patterns in the dataset without using any labeled target features.
+
+## 📌 Project Overview
+
+Credit card fraud is a critical problem that causes billions of dollars in losses globally. In this project:
+
+* We perform **Exploratory Data Analysis (EDA)** to understand the data distribution, trends, and correlations.
+* We use **DBSCAN** to cluster the transaction data and identify potential anomalies or frauds.
+* Several **visualizations** are generated to interpret the patterns and support the insights derived from the clustering.
+
+## 📊 Features
+
+* Exploratory Data Analysis using:
+
+  * Distribution plots
+  * Correlation heatmaps
+  * Time-based transaction analysis
+* Unsupervised learning with **DBSCAN**
+* Anomaly detection via clustering
+* Visualization of:
+
+  * Clusters and noise points
+  * Amount and time vs. fraud
+  * PCA-transformed data for 2D plotting
+
+## 📁 Project Structure
+
+```
+📂 credit-card-fraud-detection
+├── data/
+│   └── creditcard.csv
+├── notebooks/
+│   └── eda_and_dbscan.ipynb
+├── visuals/
+│   └── cluster_plot.png
+│   └── correlation_heatmap.png
+├── README.md
+└── requirements.txt
+```
+
+## 🔧 Technologies Used
+
+* Python (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn)
+* Jupyter Notebook
+* DBSCAN (from scikit-learn)
+* PCA (for dimensionality reduction)
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/credit-card-fraud-detection.git
+   cd credit-card-fraud-detection
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open `eda_and_dbscan.ipynb` and follow along with the code and visualizations.
+
+## 📝 Results
+
+* DBSCAN was able to identify outliers in the dataset that potentially represent fraudulent transactions.
+* The visualizations highlight the separation between normal and anomalous behavior based on transaction features.
+
+## 📌 Notes
+
+* The dataset used is the **Kaggle Credit Card Fraud Detection dataset**, which contains anonymized features.
+* Since this is an **unsupervised approach**, true fraud labels are not used during the clustering process.
+
+## 📚 References
+
+* [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+* Scikit-learn documentation for [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
+
+## 📬 Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+* GitHub: [@vikramm4](https://github.com/vikramm4)
+* Email: [vikuu2244@gmail.com](mailto:vikuu2244@gmail.com)
+
+---
+
+
